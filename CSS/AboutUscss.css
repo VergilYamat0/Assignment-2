@@ -1,0 +1,56 @@
+/* Dropdown Button */ 
+.dropdown-button { 
+    background-color: #0000b3; 
+    color: white; 
+    padding: 16px; 
+    font-size: 16px; 
+    border-width: thick; 
+} 
+
+.dropdown { 
+    position: relative; 
+    display: inline-block; 
+} 
+
+
+/* Dropdown Content (Hidden by Default) */ 
+.dropdown-list { 
+    display: none; 
+    position: absolute; 
+    background-color: #f1f1f1; 
+
+  
+} 
+
+
+/* Links inside the dropdown */ 
+.dropdown-list a { 
+    color: blue; 
+    padding: 12px 16px; 
+    text-decoration: none; 
+    display: block; 
+    font-family: verdana; 
+} 
+
+
+/* Change color of dropdown links on hover */ 
+.dropdown-list { 
+    background-color:cornsilk; 
+} 
+
+
+/* Show the dropdown list on hover */ 
+.dropdown:hover .dropdown-list { 
+    display: block; 
+} 
+
+
+/* Change the background color of the dropdown button when the dropdown list is shown */ 
+.dropdown .dropdown-button { 
+    background-color: #6666ff; 
+} 
+
+p{
+    font-family: "Sansita Swashed", cursive;
+    
+}

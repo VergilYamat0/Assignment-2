@@ -1,0 +1,47 @@
+/* styling for h1 */
+h1{ 
+            display: inline;
+            padding: 25px;
+        }
+/* color of the body, font family, and size along with the text align */
+body.heading{
+
+    color: black;
+    font-family: "Sofia";
+    font-size: 15px;
+    text-align: center;
+    
+}
+
+/* the div in charge of the footer formating */
+ div.footer{
+    position: absolute;
+    width: 100%;
+    bottom: 10px;
+    padding:auto;
+    margin: auto;
+    font-family: "Sansita Swashed", cursive;
+     
+  }
+
+/* fontawesome stuff */
+.fab {
+    color: black;
+    font-size: 80px;
+  }
+  .fab:hover {
+    color: blue;
+    font-size: 35px;
+}
+/* for video settings to align them next to each other */
+#videoal video {
+     margin: 30px 0px 0px 20px;
+ }
+
+ #videoal {
+     margin: 50px 20px 10px 20px
+     width: 440px;
+ }
+
+
+
